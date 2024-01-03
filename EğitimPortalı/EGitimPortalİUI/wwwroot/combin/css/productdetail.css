@@ -1,0 +1,216 @@
+﻿
+.product-quantity {
+    width: 60%;
+    margin-left: 15px;
+    padding-bottom: 2px;
+}
+
+.img-border {
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 20%;
+    height: auto;
+    padding: 5px;
+}
+
+    /* Style the images inside the grid */
+    .column img {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+        .column img:hover {
+            opacity: 1;
+        }
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+.mobilprice {
+    background-color: #F6B6AB;
+    color: black;
+    border-radius: 25px;
+}
+
+ /** {
+            box-sizing: border-box;
+        }
+
+        .img-zoom-container {
+            position: relative;
+        }
+
+        .img-zoom-lens {
+            position: absolute;
+            border: 1px solid #d4d4d4;*/
+            /*set the size of the lens:*/
+            /*width: 40px;
+            height: 40px;
+        }
+
+        .img-zoom-result {
+            border: 1px solid #d4d4d4;*/
+            /*set the size of the result div:*/
+            /*width: 300px;
+            height: 300px;
+        }
+
+        .slider-box-detail:hover {
+            box-shadow: 10px 10px 150px rgba(47,47,47,0.40)
+        }
+
+            .slider-box-detail:hover .img-box-detail img {
+                transform: scale(1.07);
+                transition: all ease 1s;
+            }*/
+
+
+
+
+
+
+
+.rate {
+    float: right;
+    height: 46px;
+    padding: 0 10px;
+}
+
+
+
+    /*Yıldız urun yorum*/
+/*  .rate:not(:checked) > input {
+                            position: absolute;
+                            top: -9999px;
+                        }*/
+
+.rate:not(:checked) > label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    /*color: #ccc;*/
+    color: #f1d84b;
+}
+
+    .rate:not(:checked) > label:before {
+        content: '★ ';
+    }
+
+@media (max-width: 412px) {
+    .rate {
+        display: none;
+    }
+}
+
+/* .rate > input:checked ~ label {
+                            color: #ffc700;
+                        }
+
+                        .rate:not(:checked) > label:hover,
+                        .rate:not(:checked) > label:hover ~ label {
+                            color: #deb217;
+                        }
+
+                        .rate > input:checked + label:hover,
+                        .rate > input:checked + label:hover ~ label,
+                        .rate > input:checked ~ label:hover,
+                        .rate > input:checked ~ label:hover ~ label,
+                        .rate > label:hover ~ input:checked ~ label {
+                            color: #c59b08;
+                        }*/
+
+/*
+Paytr css
+*/
+
+#paytr_taksit_tablosu {
+    clear: both;
+    font-size: 12px;
+    max-width: 1200px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    height: 300px;
+    overflow: auto;
+}
+
+#paytr_taksit_tablosu::before {
+    display: table;
+    content: " ";
+}
+
+#paytr_taksit_tablosu::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.taksit-tablosu-wrapper {
+    margin: 5px;
+    width: 280px;
+    padding: 12px;
+    cursor: default;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #e1e1e1;
+}
+
+.taksit-logo img {
+    max-height: 28px;
+    padding-bottom: 10px;
+}
+
+.taksit-tutari-text {
+    float: left;
+    width: 126px;
+    color: #a2a2a2;
+    margin-bottom: 5px;
+}
+
+.taksit-tutar-wrapper {
+    display: inline-block;
+    background-color: #f7f7f7;
+}
+
+    .taksit-tutar-wrapper:hover {
+        background-color: #e8e8e8;
+    }
+
+.taksit-tutari {
+    float: left;
+    width: 126px;
+    padding: 6px 0;
+    color: #474747;
+    border: 2px solid #ffffff;
+}
+
+.taksit-tutari-bold {
+    font-weight: bold;
+}
+
+@media all and (max-width: 600px) {
+    .taksit-tablosu-wrapper {
+        margin: 5px 0;
+    }
+}

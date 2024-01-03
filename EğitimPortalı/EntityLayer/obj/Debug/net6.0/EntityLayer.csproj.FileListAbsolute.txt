@@ -1,0 +1,12 @@
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\EntityLayer\bin\Debug\net6.0\EntityLayer.deps.json
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\EntityLayer\bin\Debug\net6.0\EntityLayer.dll
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\EntityLayer\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\EntityLayer\obj\Debug\net6.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfo.cs
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\EntityLayer\obj\Debug\net6.0\EntityLayer.dll
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\EntityLayer\obj\Debug\net6.0\refint\EntityLayer.dll
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll

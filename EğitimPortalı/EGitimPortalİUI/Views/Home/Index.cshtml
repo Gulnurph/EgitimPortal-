@@ -1,0 +1,75 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+   
+    //Layout = "_Layout";
+
+
+}
+@model List<TrainingMd>
+<link href="~/combin/css/combine.css" rel="stylesheet" />
+<link href="~/combin/css/combine.min.css" rel="stylesheet" />
+<div class="content-bottom">
+    <div >
+        <div >
+            <div class="category_tab box">
+
+             
+                <div class="tabs">
+                    <div class="tab-content products" style="z-index:0">
+                        <div class="box-heading"></div>
+                        <div class="tab-pane active" id="collection">
+                            <div class="owl-demo-tabcate">
+
+                                @foreach (var product in Model)
+                                 {
+                                    @*<div class="card">
+                                        <img src="~/ready-bootstrap-dashboard-master/assets/img/profile.jpg" alt="Avatar" style="width:30%">
+                                        <div class="container">
+                                            <h4><b>@product.Title</b></h4>
+                                            <p>@product.Category</p>
+                                        </div>
+                                    </div>*@
+                                     
+                                     <div class="product-items col-lg-3 col-md-4 col-sm-4 col-xs-6">
+                                       <div class="product-block product-thumb transition">
+                                           @* <h2>@product.Category</h2>*@
+                                            <h4><b>Eğitim <br>@product.Title</b></h4>
+                                       
+                                           
+                                            <div @*class="inner"*@>
+                                                <div class="image">
+                                                  
+                                                        <img src="~/@product.ImgUrl" style="width:58%">
+                                                    
+                                                </div>
+                                             
+                                                <div >
+                                                    <h5 class="badge badge">@product.Title</h5>
+                                                    <p>Eğitmen:@product.Instructor</p>
+
+                                                    <button class="btn btn-primary">Kayıt Ol</button>
+
+                                                </div>
+                                            </div>
+                                           
+
+                                        </div>
+                                        <hr />
+
+
+                                    </div>
+                                   
+                                }
+                            </div>
+
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          
+            <br />
+        </div>
+    </div>
+</div>

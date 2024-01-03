@@ -1,0 +1,13 @@
+﻿@model List<CategoryMd>
+<div class="dropdown">
+
+  <button class="dropbtn">Kategori</button>
+  @foreach (var item in Model)
+    {
+        <div class="dropdown-content">
+  <a href="#">@item.CategoryName</a>
+  
+  </div>
+    }
+  
+</div>

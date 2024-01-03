@@ -1,0 +1,209 @@
+﻿body, ul {
+    margin: 0;
+    padding: 0
+}
+
+.navBox {
+    overflow: hidden;
+    background: #fff
+}
+
+    .navBox a {
+        display: block; 
+        padding: 2px 10px;
+        color: #292929;
+        text-align: center;
+        text-decoration: none
+    }
+
+    .navBox > ul > li > a {
+        padding: 17px;
+        font-size: 13px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        color: #292929;
+        font-weight: 500
+    }
+
+    .navBox .active {
+        background: #474747
+    }
+
+    .navBox ul {
+        width: fit-content;
+        margin: 0 auto;
+        overflow: hidden
+    }
+
+        .navBox ul li {
+            float: left;
+            list-style: none
+        }
+
+            .navBox ul li .fa {
+                padding-left: 4px
+            }
+
+    .navBox .dropNav {
+        margin: 0 auto;
+        overflow: hidden;
+        display: none;
+        width: 280px;
+        white-space: nowrap;
+        max-width: 450px;
+        padding: 10px 0;
+        position: absolute;
+        top: inherit;
+        background: #fff;
+        z-index: 7;
+        overflow: hidden
+    }
+
+    .navBox > ul > li > ul > li:hover a {
+        color: #F6B6AB !important
+    }
+
+.liA:hover a {
+    color: #F6B6AB !important
+}
+
+.dropNav .liA:hover a {
+    color: #F6B6AB
+}
+
+.navBox:focus a {
+    color: #F6B6AB
+}
+
+.navBox > ul > li.active {
+    background-color: #F6B6AB
+}
+
+@media only screen and (min-width:770px) {
+    #openPageslide {
+        display: none
+    }
+
+    #pageslide {
+        display: block !important
+    }
+
+    .pageslideBg {
+        display: none !important
+    }
+}
+
+@media screen and (max-width:770px) {
+    .navBox ul li {
+        float: none
+    }
+
+    .navBox > ul > li {
+        border-bottom: 1px solid #F6B6AB
+    }
+
+        .navBox > ul > li > a {
+            padding: 10px;
+            max-width: 230px
+        }
+
+    .navBox .dropNav {
+        position: static;
+        background: #e2c5bd52;
+        width: 330px !important
+    }
+
+    #openPageslide {
+        display: block;
+        padding: 0 0;
+        width: 28px;
+        border-radius: 6px
+    }
+
+        #openPageslide span {
+            display: block;
+            border: .1px solid #BD897A;
+            background-color: #BD897A;
+            width: 25px;
+            margin-top: 4px
+        }
+
+    #pageslide {
+        display: none;
+        width: 230px;
+        position: fixed;
+        top: 0;
+        left: -200px;
+        height: 100%;
+        z-index: 999999;
+        overflow-y: auto
+    }
+
+    .pageslideBg {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0,0,0,.6);
+        z-index: 9998
+    }
+}
+
+h1 {
+   margin:unset;
+    text-align: center
+}
+
+@media screen and (max-width:768px) {
+    .mblmenu {
+        margin-top: 0;
+        text-align: center !important;
+        border-bottom: 1px dashed;
+        display: inline-block !important;
+        padding: 3px 0;
+        width: 65%;
+        float: left
+    }
+
+    .mblmenu2 {
+        margin-left: 25px;
+        margin-top: 0;
+        text-align: center !important;
+        border-bottom: 1px dashed;
+        display: inline-block !important;
+        padding: 3px 0;
+        width: 55%;
+        float: left
+    }
+
+    .mblmenu3 {
+        margin-top: 0;
+        text-align: center !important;
+        border-bottom: 1px dashed !important;
+        float: left;
+        font-size: 11px !important;
+        padding: 3px 0 !important;
+        width: 70%
+    }
+}
+
+@media screen and (min-width:768px) {
+    .mblmenu {
+        margin-top: 0;
+        text-align: left !important
+    }
+
+    .mblmenu2 {
+        margin-left: 15px;
+        margin-top: 0;
+        text-align: left !important
+    }
+
+    .mblmenu3 {
+        margin-top: 0;
+        text-align: left !important;
+        color: #292929
+    }
+}

@@ -1,0 +1,64 @@
+﻿<div class="sidebar">
+	<div class="scrollbar-inner sidebar-wrapper">
+		<div class="user">
+			<div class="photo">
+				<img src="assets/img/profile.jpg">
+			</div>
+			<div class="info">
+				<a class="" data-toggle="collapse" href="#collapseExample" aria-expanded="true">
+					<span>
+						Eğitim Portalı Yönetim Paneli
+						@*<span class="user-level">Admin</span>
+						<span class="caret"></span>*@
+					</span>
+				</a>
+				<div class="clearfix"></div>
+
+			
+			</div>
+		</div>
+		<ul class="nav">
+		
+			@*<li class="nav-item">
+				<a href="components.html">
+					<i class="la la-table"></i>
+					<p>Menuyu Gör</p>
+					<span class="badge badge-count">14</span>
+				</a>
+			</li>*@
+			<li class="nav-item">
+				<a asp-area="Admin" asp-controller="Training" asp-action="Index">
+					<i class="la la-keyboard-o"></i>
+					<p>Eğitimler</p>
+					
+				</a>
+			</li>
+			<li class="nav-item">
+				<a asp-area="Admin" asp-controller="Category" asp-action="Index">
+					<i class="la la-keyboard-o"></i>
+					<p>Kategoriler</p>
+
+				</a>
+			</li>
+			
+			<li class="nav-item">
+				<a asp-action="Index" asp-controller="Content" asp-area="Admin">
+					<i class="la la-bell"></i>
+					<p>Eğitim İçerikler</p>
+				
+				</a>
+			</li>
+
+
+
+       
+			
+			<li class="nav-item">
+				<a href="icons.html">
+					<i class="la la-fonticons"></i>
+					<p>Çıkış Yap</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>

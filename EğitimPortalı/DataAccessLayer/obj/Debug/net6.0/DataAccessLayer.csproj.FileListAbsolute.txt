@@ -1,0 +1,17 @@
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.runtimeconfig.json
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\DataAccessLayer\bin\Debug\net6.0\EntityLayer.dll
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\DataAccessLayer\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CopyComplete
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\Glnr2\OneDrive\Masaüstü\EğitimPortalı\EğitimPortalı\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll

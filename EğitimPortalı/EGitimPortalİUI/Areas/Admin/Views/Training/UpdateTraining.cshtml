@@ -1,0 +1,62 @@
+﻿@model EGitimPortaliUI.Areas.Admin.Models.UpdateTrainingModel
+@{
+	Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="main-panel">
+	<div class="content">
+		<div class="container-fluid">
+			<h4 class="page-title">Eğitim </h4>
+			<div class="row">
+				<div class="col-md-6">
+					<form asp-action="UpdateTraining" asp-area="Admin" asp-controller="Training" method="post">
+						<div class="card">
+							<div class="card-header">
+								<div class="card-title">Eğitim Güncelle</div>
+							</div>
+							<div class="card-body">
+								<div class="form-group">
+									<label>Eğitim Id</label>
+									<input type="number" asp-for="Id" class="form-control">
+
+								</div>
+								<div class="form-group">
+									<label>Eğitim Başlık</label>
+									<input type="text" asp-for="Title" class="form-control">
+
+								</div>
+								<div class="form-group">
+									<label>Kategori Id</label>
+									<input type="text" asp-for="CategoryId" class="form-control">
+								</div>
+								<div class="form-group">
+									<label>Eğitmen</label>
+									<input type="text" asp-for="Instructor" class="form-control">
+								</div>
+								<div class="form-group">
+									<label>ImgUrl</label>
+									<input type="text" asp-for="ImgUrl" class="form-control">
+								</div>
+								<div class="form-group">
+									<label>Kontejan</label>
+									<input type="number" asp-for="Quota" class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="Maliyet">Maliyet</label>
+									<input type="number" asp-for="CostPerDay" class="form-control">
+								</div>
+								<div class="form-group">
+									<label>Eğitim Süresi</label>
+									<input type="text" asp-for="Duration" class="form-control">
+								</div>
+							</div>
+							<div class="card-action">
+								<button class="btn btn-primary">Eğitim Güncelle</button>
+
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

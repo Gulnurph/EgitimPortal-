@@ -1,0 +1,60 @@
+﻿@model List<EGitimPortaliUI.Areas.Admin.Models.TrainingModel>
+@{
+	Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="main-panel">
+	<div class="content">
+		<div class="container-fluid">
+			<h4 class="page-title">Eğitim İşlemleri</h4>
+			<div class="row">
+				<div class="col-md-7">
+					<div class="card">
+						<div class="card-header">
+							<div class="card-title">Eğitim Listesi</div>
+						</div>
+						<div class="card-body">
+							
+							<table class="table mt-3">
+								<thead>
+									<tr>
+										
+										<th scope="col">Eğitim Name</th>
+										<th scope="col">Kategori Id</th>
+										<th scope="col">Eğitmen</th>
+										<th scope="col">Kontejan</th>
+										<th scope="col">Maliyet</th>
+										<th scope="col">Eğitim Süresi</th>
+										<th scope="col">Sil</th>
+										<th scope="col">Güncelle</th>
+									</tr>
+								</thead>
+								<tbody>
+									@foreach (var item in Model)
+									{
+										<tr>
+											<td>@item.Title</td>
+											<td>@item.CategoryId</td>
+											<td>@item.Instructor</td>
+											<td>@item.Quota</td>
+											<td>@item.CostPerDay <br/> TL</td>
+											<td>@item.Duration <br /> Saat</td>
+											<td><a asp-action="DeleteTraining" asp-area="Admin" asp-controller="Training" asp-route-id="@item.Id" class="btn btn-outline-danger">Sil</a></td>
+											<td><a asp-action="UpdateTraining" asp-area="Admin" asp-controller="Training" asp-route-id="@item.Id" class="btn btn-outline-success">Güncelle</a></td>
+
+										</tr>
+									}
+									
+								
+								</tbody>
+							</table>
+							<a asp-action="AddTraining" asp-area="Admin" asp-controller="Training"  class="btn btn-outline-primary">Yeni Eğitim Ekle</a>
+						</div>
+					</div>
+				
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+</div>

@@ -1,0 +1,56 @@
+﻿@model List<EGitimPortaliUI.Areas.Admin.Models.ContentModel>
+@{
+	Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="main-panel">
+	<div class="content">
+		<div class="container-fluid">
+			<h4 class="page-title">İçerik İşlemleri</h4>
+			<div class="row">
+				<div class="col-md-7">
+					<div class="card">
+						<div class="card-header">
+							<div class="card-title">İçerik Listesi</div>
+						</div>
+						<div class="card-body">
+
+							<table class="table mt-3">
+								<thead>
+									<tr>
+
+										<th scope="col">İçerik Tip</th>
+										<th scope="col">İçerik Url</th>
+										<th scope="col">Eğitim Id</th>
+										
+										<th scope="col">Sil</th>
+										<th scope="col">Güncelle</th>
+									</tr>
+								</thead>
+								<tbody>
+									@foreach (var item in Model)
+									{
+											<tr>
+												<td>@item.ContentType</td>
+												<td>@item.ContentUrl</td>
+												<td>@item.TrainingId</td>
+												
+												<td><a asp-action="DeleteTraining" asp-area="Admin" asp-controller="Training" asp-route-id="@item.Id" class="btn btn-outline-danger">Sil</a></td>
+												<td><a href="#" class="btn btn-outline-success">Güncelle</a></td>
+
+											</tr>
+									}
+
+
+								</tbody>
+							</table>
+							<a asp-action="AddTraining" asp-area="Admin" asp-controller="Training"  class="btn btn-outline-primary">İçerik Ekle</a>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</div>
